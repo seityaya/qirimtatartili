@@ -1,0 +1,56 @@
+nav {
+    background: #cccccc;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 4px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    /* .button {
+        border: dotted 1px black;
+    } */
+
+    .article_name{
+        align-content: center;
+    }
+
+    #menu {
+        content:url(./../../resurse/icon/menu.svg);
+     }
+
+     #void_name {
+        flex-grow: 1;
+     }
+
+     #void_navigate {
+        flex-grow: 0.1;
+     }
+
+     #prev_section {
+        content:url(./../../resurse/icon/chevrons-left.svg);
+     }
+
+     #prev_character {
+        content:url(./../../resurse/icon/chevron-left.svg);
+     }
+
+     #next_section {
+        content:url(./../../resurse/icon/chevron-right.svg);
+     }
+
+     #next_character {
+        content:url(./../../resurse/icon/chevrons-right.svg);
+     }
+
+     #navigate_end {
+        content:url(./../../resurse/icon/arrow-down-circle.svg);
+     }
+
+     #navigate_beg {
+        content:url(./../../resurse/icon/arrow-up-circle.svg);
+     }
+}

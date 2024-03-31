@@ -1,0 +1,66 @@
+body > header {
+   background: #a1a1a1;
+   border-radius: 2px;
+   margin: 5px;
+   padding: 4px;
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+
+
+
+   .columns {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     margin-left: 5px;
+     margin-right: 15px;
+
+     .button {
+      border: dotted 1px black;
+      margin-left: 2px;
+      margin-right: 2px;
+      }
+   }
+
+   .setting {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     .button {
+      margin-left: 2px;
+    }
+   }
+
+   #name {
+      flex-grow: 1;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+
+   #logo {
+      content:url(./../../resurse/icon/anchor.svg);
+   }
+
+   #marge {
+     content:url(./../../resurse/icon/layers.svg);
+   }
+
+   #font_zoom_up {
+     content:url(./../../resurse/icon/zoom-in.svg);
+   }
+
+   #font_zoom_dn {
+     content:url(./../../resurse/icon/zoom-out.svg);
+   }
+
+   #switch_theme {
+     content:url(./../../resurse/icon/moon.svg);
+   }
+
+   #help {
+     content:url(./../../resurse/icon/info.svg);
+   }
+}

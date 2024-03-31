@@ -1,0 +1,71 @@
+article {
+    background: white;
+    border-radius: 2px;
+    margin: 5px;
+
+    .content {
+        background: rgb(255, 255, 255);
+        flex-grow:  1;
+        flex-basis: 0;
+        margin: 2px;
+        border-radius: 4px;
+    }
+}
+
+article > header {
+    background: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+    :lang(ru){
+        background: #ffbb00;
+        border-radius: 4px;
+        margin: 2px;
+    }
+    :lang(en){
+        background: #00ff37;
+        border-radius: 4px;
+        margin: 2px;
+    }
+    :lang(none){
+        background: #006eff;
+        border-radius: 4px;
+        margin: 2px;
+    }
+    :lang(global){
+        background: #ec3326;
+        border-radius: 4px;
+        margin: 2px;
+    }
+}
+
+article > section {
+    background: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+    :lang(ru) {
+        background: #e6c877;
+        border-radius: 4px;
+        margin: 2px;
+    }
+    :lang(en) {
+        background: #77e68f;
+        border-radius: 4px;
+        margin: 2px;
+    }
+    :lang(none) {
+        background: #77a7e6;
+        border-radius: 4px;
+        margin: 2px;
+    }
+    :lang(global) {
+        background: #ec3326;
+        border-radius: 4px;
+        margin: 2px;
+    }
+}
